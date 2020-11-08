@@ -85,7 +85,7 @@ currentConversationId = urlParams.get('conversationid');
 
 client.loginImplicitGrant(
     '7f743c93-8ca9-47f8-b395-a84928940d62',
-    'https://724cded2b839.ngrok.io',
+    'https://armandsb1.github.io',
     { state: currentConversationId })
 .then(data => {
     console.log(data);
