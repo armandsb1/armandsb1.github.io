@@ -9,7 +9,9 @@ const responseMap = {
     2: "I could provide you a one-time discount",
     3: "We're sorry to hear about your experience.",
     4: "We're glad that you enjoy our service!",
-    5: "Goodbye. Please don't forget to like and subscribe to our channel." 
+    5: "Goodbye. Please don't forget to like and subscribe to our channel.",
+    6: "Mums žēl, ka Jums radās problēmas",
+    7: "Priecājamies, ka varējām Jums palīdzēt"
 }
 
 const keywordMap = {
@@ -23,7 +25,9 @@ const keywordMap = {
     'amazing': 4,
     'thank': 4,
     'helpful': 4,
-    'bye': 5
+    'bye': 5,
+    'problēma': 6,
+    'atrisināt': 7
 }
 
 export default {
