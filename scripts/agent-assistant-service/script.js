@@ -10,7 +10,7 @@ const responseMap = {
     3: "We're sorry to hear about your experience.",
     4: "We're glad that you enjoy our service!",
     5: "Goodbye. Please don't forget to like and subscribe to our channel.",
-    6: "Mums žēl, ka Jums radās problēmas",
+    6: "Mums žēl, ka Jums radās problēmas", "aaa",
     7: "Priecājamies, ka varējām Jums palīdzēt"
 }
 
