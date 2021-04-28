@@ -54,6 +54,16 @@ export default {
         let recommendations = assistService.analyzeText(stackedText);
         console.log(recommendations);
         showRecommendations(recommendations, conversationId, communicationId);
+        let body = {}; // Object | Conversation
+
+apiInstance.patchConversationsChat(conversationId, body)
+  .then((data) => {
+    console.log(`patchConversationsChat success! data: ${JSON.stringify(data, null, 2)}`);
+  })
+  .catch((err) => {
+    console.log('There was a failure calling patchConversationsChat');
+    console.error(err);
+  });
     },
 
     clearRecommendations(){
