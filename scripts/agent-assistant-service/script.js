@@ -22,7 +22,7 @@ const keywordMap = {
     'bad': 3,
     'suck': 3,
     'stupid': 3,
-    'amazing': 4,
+    'ama zing': 4,
     'thank': 4,
     'helpful': 4,
     'bye': 5,
