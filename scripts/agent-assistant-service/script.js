@@ -37,7 +37,7 @@ export default {
      * @returns {Array} possible responses 
      */
     analyzeText(origText){
-        let responses = [eee];
+        let responses = [];
         let text = origText.toLowerCase();
         let responseIndexArr = []; 
 
