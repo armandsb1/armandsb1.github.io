@@ -51,7 +51,16 @@ export default {
                 responseIndexArr.push(index);
             }
         })
+let body = {}; // Object | Conversation
 
+apiInstance.patchConversationsChat(currentConversationId, body)
+  .then((data) => {
+    console.log(`patchConversationsChat success! data: ${JSON.stringify(data, null, 2)}`);
+  })
+  .catch((err) => {
+    console.log('There was a failure calling patchConversationsChat');
+    console.error(err);
+  });
         return responses;
     }
 }
