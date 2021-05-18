@@ -84,7 +84,7 @@ const urlParams = new URLSearchParams(window.location.search);
 currentConversationId = urlParams.get('conversationid');
 
 client.loginImplicitGrant(
-    '7f743c93-8ca9-47f8-b395-a84928940d62',
+    '6e099f75-fd61-4c02-bfe0-52bdf51615f9',
     'https://armandsb1.github.io',
     { state: currentConversationId })
 .then(data => {
